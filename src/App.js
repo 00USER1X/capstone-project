@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import SearchBar from './components/SearchBar';
+import SearchResults from './components/SearchResults';
+import SearchOptions from './components/SearchOptions';
+
 
 function App() {
+  const backgroundStyle = {
+    backgroundImage: `url('https://pngimg.com/d/google_PNG19642.png')`,
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'top center',
+    backgroundSize: 'contain',
+    backgroundColor: '#f2f2f2',
+    paddingTop: '50px',
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app" style={backgroundStyle}>
+      <div className="header">
+        <SearchBar />
+        <SearchOptions />
+      </div>
+      <SearchResults />
     </div>
   );
 }

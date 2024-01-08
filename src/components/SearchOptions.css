@@ -1,0 +1,19 @@
+/* SearchOptions.css */
+.search-options {
+  display: flex;
+  margin-top: 12px;
+}
+
+.search-option {
+  margin-right: 24px;
+}
+
+.search-option a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #1a0dab;
+}
+
+.search-option a:hover {
+  text-decoration: underline;
+}

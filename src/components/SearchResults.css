@@ -1,0 +1,23 @@
+/* SearchResults.css */
+.search-results {
+  margin-top: 24px;
+}
+
+.result-item {
+  margin-top: 12px;
+}
+
+.result-item a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #1a0dab;
+}
+
+.result-item a:hover {
+  text-decoration: underline;
+}
+
+.result-item p {
+  color: #545454;
+  font-size: 16px;
+}
