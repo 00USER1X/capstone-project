@@ -1,16 +1,11 @@
-/* SearchResults.css */
 .search-results {
-  margin-top: 24px;
-}
-
-.result-item {
-  margin-top: 12px;
+  margin-top: 28px; 
 }
 
 .result-item a {
-  font-size: 20px;
+  font-size: 22px; 
   text-decoration: none;
-  color: #1a0dab;
+  color: #4285f4; 
 }
 
 .result-item a:hover {
@@ -19,5 +14,5 @@
 
 .result-item p {
   color: #545454;
-  font-size: 16px;
+  font-size: 18px; 
 }

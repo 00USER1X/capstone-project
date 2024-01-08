@@ -31,7 +31,7 @@ function SearchBar() {
       <form onSubmit={handleSearch}>
         <input
           type="text"
-          placeholder="Search Google"
+          placeholder="SEARCH UNIVERSE"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />

@@ -1,15 +1,14 @@
-/* SearchOptions.css */
 .search-options {
   display: flex;
-  margin-top: 12px;
+  margin-top: 16px; 
 }
 
 .search-option {
-  margin-right: 24px;
+  margin-right: 28px; 
 }
 
 .search-option a {
-  font-size: 18px;
+  font-size: 20px;
   text-decoration: none;
   color: #1a0dab;
 }
