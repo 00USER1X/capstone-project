@@ -7,12 +7,12 @@ import SearchOptions from './components/SearchOptions';
 
 function App() {
   const backgroundStyle = {
-    backgroundImage: `url('https://i.pinimg.com/1200x/80/16/aa/8016aa519d53f2953e677ae4d75b715a.jpg')`,
+    backgroundImage: `url('https://i.ytimg.com/vi/jnGMmqolUD0/maxresdefault.jpg')`,
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'top center',
     backgroundSize: 'contain',
     backgroundColor: '#f2f2f2',
-    paddingTop: '155px',
+    paddingTop: '180px',
   };
 
   return (
